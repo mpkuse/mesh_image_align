@@ -7,7 +7,7 @@ Since there are semantic alignment methods, it is possible to match points. Once
 3d-2d correspondence, in principle it should be possible to align the 3d mesh model to the imaged banana.
 For now I hard-code the 3d-2d correspondence. See `main.cpp` for the values.
 
-I use [Theia-sfm's DlsPnp method](http://theia-sfm.org/pose.html#perspective-n-point). 
+I use [Theia-sfm's DlsPnp method](http://theia-sfm.org/pose.html#perspective-n-point).
 
 It works!
 
@@ -26,7 +26,7 @@ make
 
 ### 3d-2d Manually Marked
 ![Manual Markings](./results/IMG_20181214_193607.jpg)
-![Manual Markings](./results/blender.jpg)
+![Manual Markings](./results/blender.png)
 
 ### Input Image
 ![Input Image](./data/demo_image.jpg)
